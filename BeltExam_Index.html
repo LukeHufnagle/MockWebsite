@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Bay</title>
+    <link rel="stylesheet" href="BeltExam_Style.css">
+</head>
+<body>
+    <div id="navBar">
+        <div class="leftNav">
+            <img src="assets/leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+        </div>
+        <div class="searchBar">
+            <input class="navSearch" type="text" placeholder="Search for anything">
+            <img src="assets/search-dark.png" alt="magnify glass">
+        </div>
+        <div class="rightNav">
+            <h3>Sign in</h3>
+            <img onclick="alert('Your cart is Empty!')" src="assets/cart-dark.png" alt="cart">
+        </div>
+    </div>
+    <div id="categories">
+        <ul class="catList">
+            <li>Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agave</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+        <h1>Your Source for Serious Succulent Specialties</h1>
+    </div>
+    <div id="main">
+        <div class="leftMain">
+            <div class="leftMainInfo">
+                <h2>Discover succulent varieties one pot or rack at a time!</h2>
+                <div class="discover">
+                    <h4>Discover</h4>
+                    <img class="arrow" src="assets/arrow-light.png" alt="arrow">
+                </div>
+            </div>
+            <img id="mainAloePic" onmouseover="changeImage()" onmouseout="changeImage2()" src="assets/succulents-1.jpg" alt="main image">
+        </div>
+        <div class="rightMain">
+            <img class="aloePic" src="assets/aloe-m.jpg" alt="">
+            <div class="bottomRightBox">
+                <h3>Soothing Aloe</h3>
+                <img class="arrow" src="assets/arrow-light.png" alt="arrow">
+            </div>
+        </div>
+    </div>
+    <div id="bottomPics">
+        <div class="cards">
+            <div id="card1">
+                <img src="assets/aeonium-s.jpg" alt="aeonium">
+                <h4>Aeonium</h4>
+            </div>
+            <div id="card2">
+                <img src="assets/aloe-s.jpg" alt="aloe">
+                <h4>Aloe</h4>
+            </div>
+            <div id="card3">
+                <img src="assets/cactus-s.jpg" alt="cactus">
+                <h4>Cactus</h4>
+            </div>
+            <div id="card4">
+                <img src="assets/echeveria-s.jpg" alt="echeveria">
+                <h4>Echeveria</h4>
+            </div>
+            <div id="card5">
+                <img src="assets/sedum-s.jpg" alt="Sedum">
+                <h4>Sedum</h4>
+            </div>
+            <div id="card6">
+                <img src="assets/sempervivum-s.jpg" alt="sempervivum">
+                <h4>Sempervivum</h4>
+            </div>
+        </div>
+    </div>
+    <div id="cookieBox">
+        <div class="cookiePop">
+            <img src="assets/alert-dark.png" alt="alert">
+            <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <span><a href="#">cookie policy</a></span></p>
+            <button onclick="remove(this)" class="acceptBtn">I Accept</button>
+        </div>
+    </div>
+    <script src="BeltExam_Script.js"></script>
+</body>
+</html>

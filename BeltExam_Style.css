@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+#navBar{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.leftNav{
+    display: flex;
+    align-items: center;
+}
+
+.leftNav img{
+    margin-right: 40px;
+    background-color: #00d1b2;
+    border-radius: 5px;
+    transform: scaleX(-1);
+}
+
+.navSearch{
+    margin: 0px 40px;
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.searchBar{
+    position: relative;
+}
+
+.searchBar img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+}
+
+.rightNav{
+    display: flex;
+    align-items: center;
+}
+
+.rightNav h3{
+    margin-right: 30px;
+}
+
+.rightNav img{
+    width: 40px;
+    height: 40px;
+}
+
+#categories{
+    height: 100px;
+    /* background-color: darkgreen; */
+}
+
+.catList{
+    margin: 0px 200px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    border-bottom: 5px solid black;
+}
+
+#categories h1{
+    width: 1000px;
+    margin-left: 270px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+#main{
+    height: 300px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    justify-content: center;
+}
+
+.leftMain{
+    width: 600px;
+    height: 300px;
+    border: none;
+    margin-right: 10px;
+    display: flex;
+    background-color: #00d1b2;
+}
+
+.leftMainInfo{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.discover{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+}
+
+.rightMain{
+    width: 400px;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+}
+
+.aloePic{
+    width: 100%;
+    height: 70%;
+    margin-bottom: 10px;
+}
+
+.bottomRightBox{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #00d1b2;
+    color: white;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#bottomPics{
+    height: 180px;
+    /* background-color: darkmagenta; */
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    height: 200px;
+    background-color: #00d1b2;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#card1, #card2, #card3, #card4, #card5, #card6{
+    width: 150px;
+    height: 180px;
+    /* border: 2px solid white; */
+    margin: 0px 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#bottomPics img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+#cookieBox{
+    height: 100px;
+    /* background-color: darkseagreen; */
+}
+
+.cookiePop{
+    width: 1016px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 249px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.acceptBtn{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: #00d1b2;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
